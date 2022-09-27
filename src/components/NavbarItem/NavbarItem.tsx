@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbarItem.scss';
 
-interface ImageBlockInterface {
+export interface ImageBlockInterface {
     imageUrl: string;
     altText: string;
 }
