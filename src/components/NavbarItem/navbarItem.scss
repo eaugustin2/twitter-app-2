@@ -1,0 +1,35 @@
+.navbar-item {
+
+    max-width: 150px;
+
+    &__container {
+
+        margin-top: 10px;
+
+        &__link {
+            text-decoration: none;
+             display: flex;
+             flex-direction: row;
+             margin: 10px;
+
+            &__icon-container {
+
+                &__icon {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+
+            &__title {
+                text-decoration: none;
+                font-size: 16px;
+                margin-left: 5px;
+                align-self: center;
+                color: black;
+            }
+
+        }
+
+       
+    }
+}
