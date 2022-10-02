@@ -1,5 +1,6 @@
 import React from 'react';
 import { ImageBlockInterface } from '../NavbarItem/NavbarItem';
+import './profileSection.scss';
 
 export interface ProfileSectionInterface {
     background: ImageBlockInterface;
@@ -37,33 +38,33 @@ const ProfileSection = ({
 
                     <div className='profile-section__container__statistics__tweets'>
                         <div className='profile-section__container__statistics__tweets__subheader'>
-                            {tweets}
+                            Tweets:
                         </div>
 
                         <div className='profile-section__container__statistics__tweets__value'>
-                            1,709
+                            {tweets}
                         </div>
                     </div>
 
                     <div className='profile-section__container__statistics__following'>
                         
                         <div className='profile-section__container__statistics__following__subheader'>
-                            {following}
+                            Following:
                         </div>
 
                         <div className='profile-section__container__statistics__following__value'>
-                            700
+                            {following}
                         </div>
                     </div>
 
                     <div className='profile-section__container__statistics__followers'>
                         
                         <div className='profile-section__container__statistics__followers__subheader'>
-                            {followers}
+                            Followers:
                         </div>
 
                         <div className='profile-section__container__statistics__followers__value'>
-                            1,700
+                            {followers}
                         </div>
                     </div>
 
