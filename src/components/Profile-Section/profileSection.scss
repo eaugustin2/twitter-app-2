@@ -5,14 +5,16 @@
         width: 400px;
         height: 600px;
         margin-top: 26px;
+        margin-left: 12px;
         margin-bottom: 29px;
 
-        border: 1px solid black;
+        //border: 1px solid black;
 
         &__background-container {
 
-            height: 150px;
-            width: 300px;
+            height: 100px;
+            //width: 400px;
+            width: 100%;
 
             &__image {
                 height: 100%;
@@ -23,21 +25,54 @@
         &__pfp-container {
 
             height: 70px;
-            width: 70px;
+            //width: 300px;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            gap: 7px;
 
             &__image {
                 border-radius: 50%;
                 height: 70px;
                 width: 70px;
             }
+
+            &__identifiers {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 15px;
+            }
+
+
         }
 
         &__statistics {
             display: flex;
             flex-direction: row;
-            gap: 10px;
+            gap: 20px;
             width: 300px;
             margin-top: 30px;
+            //margin-left: 12px;
+
+            &__tweets {
+                &__subheader {
+                    margin-bottom: 5px;
+                }
+            }
+
+            &__following {
+                &__subheader {
+                    margin-bottom: 5px;
+                }
+            }
+
+            &__followers {
+                &__subheader {
+                    margin-bottom: 5px;
+                }
+            }
         }
     }
 }

@@ -32,6 +32,16 @@ const ProfileSection = ({
 
                 <div className='profile-section__container__pfp-container'>
                     <img className='profile-section__container__pfp-container__image' src={profilePicture.imageUrl} alt={profilePicture.altText} />
+
+                    <div className='profile-section__container__pfp-container__identifiers'>
+                        <div className='profile-section__container__pfp-container__identifiers__name'>
+                            {name}
+                        </div>
+
+                        <div className='profile-section__container__pfp-container__identifiers__handle'>
+                            {handle}
+                        </div>
+                    </div>
                 </div>
 
                 <div className='profile-section__container__statistics'>
